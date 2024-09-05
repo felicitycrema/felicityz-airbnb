@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server --watch db.json -p 5000 -m ./node_modules/json-server-auth"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "json-server": "^0.17.0",
+    "json-server-auth": "^2.1.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}

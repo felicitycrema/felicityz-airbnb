@@ -1,0 +1,19 @@
+.home_section {
+    display: flex;
+    padding: 30px;
+}
+
+.home-section-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    /* margin-left: 40px; */
+    margin-top: 30px;
+    border-top: 1 px solid lightgray;
+    padding: 20px;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight:lighter;
+    background-color: #f7f7f7;
+}
+

@@ -1,0 +1,116 @@
+/* Card.css */
+
+/* Basic styling for larger screens */
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 20px;
+    border: none;
+    /* border: 1px solid #ccc; */
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card img {
+    width: 100%;
+    /* height: auto; */
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+  }
+  
+  .card_info {
+    padding: 20px;
+  }
+  
+  .card_info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: hsl(0, 1%, 37%);
+    font-weight: lighter;
+  }
+  
+  .card_info h4 {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 15px;
+  }
+  
+  .card_info h3 {
+    font-size: 1.25rem;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  
+  .card_info button {
+    padding: 10px 20px;
+    background-color: #ff7779;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card_info button:hover {
+   color: #ff7779;
+    background-color: #dddd;
+  } */
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card_info > button { 
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit; 
+    margin-top: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  } 
+
+
+.card_info > button:hover {
+    background-color: white;
+    color: #ff7779;
+}
+
+  /* Media query for mobile screens */
+  @media (max-width: 1000px) {
+    .card {
+      max-width: 100%;
+      margin: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  
+    .card_info {
+      padding: 15px;
+    }
+  
+    .card_info h2 {
+      font-size: 1.25rem;
+      margin-bottom: 8px;
+    }
+  
+    .card_info h4 {
+      font-size: 0.9rem;
+      margin-bottom: 12px;
+    }
+  
+    .card_info h3 {
+      font-size: 1.1rem;
+      margin-bottom: 15px;
+    }
+  
+    .card_info button {
+      padding: 8px 16px;
+      font-size: 0.9rem;
+    }
+  }
+  

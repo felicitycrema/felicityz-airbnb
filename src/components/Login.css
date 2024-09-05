@@ -1,0 +1,99 @@
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .login-form h2.error {
+    color: red;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .login-form .facebook-login,
+  .login-form .google-login {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #3b5998; /* Facebook blue */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-form .google-login {
+    background-color: #db4437; /* Google red */
+  }
+  
+  .login-form .facebook-login:hover,
+  .login-form .google-login:hover {
+    opacity: 0.9;
+  }
+  
+  .login-form .login-or {
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .login-form .login-or span {
+    background-color: #f9f9f9;
+    padding: 0 10px;
+    color: #888;
+  }
+  
+  .login-form .login-or .or-divide {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #ddd;
+    z-index: -1;
+  }
+  
+  .login-form input[type="email"],
+  .login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .login-form input[type="email"]::placeholder,
+  .login-form input[type="password"]::placeholder {
+    color: #999;
+  }
+  
+  .login-form .sign-up-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .login-form .sign-up-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-form .divider {
+    margin: 20px 0;
+    height: 1px;
+    background-color: #ddd;
+  }
+  
+  .login-form div {
+    text-align: center;
+    color: #333;
+  }
+  

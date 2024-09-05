@@ -1,0 +1,112 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: centre;
+  height: 70px;
+  position: sticky;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  background-color: #fff;
+  border-bottom: 1px solid lightgrey;
+}
+
+.header_logo {
+  object-fit: contain;
+  height: 56px;
+  margin-left: 20px;
+}
+.header_search > input {
+  background-color: lightgrey;
+  width: 100px;
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.header_search {
+  background-color: lightgrey;
+  font-size: 14px;
+  height: 40px;
+  padding: 5px;
+  width: 40px;
+  border: 1px solid lightgray;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.header_searchIcon:hover {
+  color: #ffb24d;
+  font-size: 26px;
+}
+
+.header_center {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: fit-content;
+  margin-top: 8px;
+  height: 56px;
+  border: 1px solid lightgray;
+  border-radius: 50px;
+}
+
+.header_center > input {
+  border: none;
+  padding: 10px;
+  outline-width: 0;
+  font-size: 20px;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15vw;
+  margin-right: 80px;
+  font-size: 20px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown_content {
+  border-radius: 20px;
+  display: none;
+  margin: 2px 15px 20px -120px;
+  padding: 20px 0;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown_content span {
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+  padding: 10px 25px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown_content span:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown_content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  /* background-color: #3e8e41; */
+}
+

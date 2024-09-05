@@ -1,0 +1,63 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "felicityza",
+      "email": "greatnessz@christ.io",
+      "phone": "12378921"
+    },
+    {
+      "id": "2",
+      "name": "kuli zitha",
+      "email": "kuliz@christ.io",
+      "phone": "12378921"
+    },
+    {
+      "id": "8972",
+      "name": "greatness zitha",
+      "email": "greatnessz@christ.io",
+      "phone": "12378921"
+    },
+    {
+      "id": "ee8a",
+      "name": "greatness zitha",
+      "email": "greatnessz@christ.io",
+      "phone": "12378921"
+    },
+    {
+      "id": "d274",
+      "name": "greatness zitha",
+      "email": "greatnessz@christ.io",
+      "phone": "12378921"
+    },
+    {
+      "email": "luluz@christ.io",
+      "password": "$2a$10$9dvT2MpHVDbd11VxqSS29eoXlvhBT.KLPuM4/.UBb0FraC4wZXF5S",
+      "id": "GfR5UK3"
+    }
+  ],
+  "bookings": [
+    {
+      "listingId": "1",
+      "startDate": "2025-04-03",
+      "endDate": "2025-05-03",
+      "userId": "1",
+      "id": "1"
+    }
+  ],
+  "listings": [
+    {
+      "id": "1",
+      "bath_num": 3,
+      "bed_num": 4,
+      "zip": 50210,
+      "address": "San Sai Noi",
+      "city": "Chiang Mai",
+      "street": "Cho",
+      "price": 500,
+      "sq_ft": 70,
+      "email": "example@example.com",
+      "userId": "2"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "felicityz",
+      "email": "felicityza@christ.io",
+      "password": "1234567",
+      "phone": "123"
+    },
+    {
+      "id": "2",
+      "name": "kuli zitha",
+      "email": "kuliz@christ.io",
+      "phone": "1234"
+    },
+    {
+      "id": "8972",
+      "name": "greatness zitha",
+      "email": "greatnessz@christ.io",
+      "phone": "12378921"
+    },
+    {
+      "id": "ee8a",
+      "name": "greatness zitha",
+      "email": "greatnessz@christ.io",
+      "phone": "12378921"
+    },
+    {
+      "id": "d274",
+      "name": "greatness zitha",
+      "email": "greatnessz@christ.io",
+      "phone": "12378921"
+    },
+    {
+      "email": "kkkz@christ.io",
+      "password": "$2a$10$.fk1pApxSO9ZeHJIgLgCyOyfuQdzH9oPMxRldfvuTTP8lEPWEp5SW",
+      "name": "kkk zitha",
+      "id": "TGCYgIS"
+    },
+    {
+      "email": "omoz@christ.io",
+      "password": "$2a$10$BOdHXFIwunOZRRTTzgelQOtHRphMoD13v30HVEXXH.Z9ArSOTdqZC",
+      "id": "I39aFMs"
+    },
+    {
+      "email": "crema@tv.za",
+      "password": "$2a$10$E2vtO7VR2nuaPAXq2jCRKu9q3ftly.SPcSJjCq2lxOZCfoINw5C/2",
+      "id": "e5r1BXo"
+    }
+  ],
+  "bookings": [
+    {
+      "listingId": "1",
+      "startDate": "2025-04-03",
+      "endDate": "2025-05-03",
+      "userId": "1",
+      "id": "1"
+    }
+  ],
+  "listings": [
+    {
+      "id": "1",
+      "bath_num": 3,
+      "bed_num": 4,
+      "zip": 50210,
+      "address": "San Sai Noi",
+      "city": "Chiang Mai",
+      "street": "Cho",
+      "price": 500,
+      "sq_ft": 70,
+      "email": "example@example.com",
+      "userId": "2"
+    }
+  ]
+}
