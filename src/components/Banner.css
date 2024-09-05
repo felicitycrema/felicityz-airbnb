@@ -66,41 +66,4 @@
     color: #ff7779;
     text-transform: inherit;
 }
-    /* justify-content: center;
-    font-size: 14px;
-    padding:0;
-    border: none; */
-
-    /* Global Styles */
-/* body, html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
-  } */
-  
-  /* Banner Container */
-  /* .banner {
-    background: url('/path/to/your/banner-image.jpg') center center / cover no-repeat;
-    color: white;
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
-  }
-  
-  .banner::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.4); /* Overlay for better text visibility */
-    /* z-index: 1; */
-  
-  
- 
-
+    
