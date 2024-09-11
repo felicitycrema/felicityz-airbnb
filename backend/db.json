@@ -46,6 +46,11 @@
       "email": "crema@tv.za",
       "password": "$2a$10$E2vtO7VR2nuaPAXq2jCRKu9q3ftly.SPcSJjCq2lxOZCfoINw5C/2",
       "id": "e5r1BXo"
+    },
+    {
+      "email": "test@tv.za",
+      "password": "$2a$10$iLp75AiJYGJqvNsll4BmTujbfhirtYAKpQUDOvgNjMUbMDAL7JTLy",
+      "id": "q2cO8mv"
     }
   ],
   "bookings": [
